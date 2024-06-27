@@ -9,6 +9,18 @@ const app = express();
 // Static middleware pointing to the public folder
 app.use(express.static('public'));
 // listen() method is responsible for listening for incoming connections on the specified port 
+
+//HTML Routes
+// GET Route for homepage
+app.get('/notes', (req, res) =>
+  res.sendFile(path.join(__dirname, '/public/notes.html'))
+);
+
+// GET Route for feedback page
+app.get('*', (req, res) =>
+  res.sendFile(path.join(__dirname, '/public/index.html'))
+);
+
 app.listen(PORT, () =>
   console.log(`Serving static asset routes on port ${PORT}!`)
 );
