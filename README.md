@@ -14,8 +14,7 @@ The completed application looks like:
 ![Image of the completed Application.](./public/assets/images/note-maker-homepage.png)
 
 The notes page opens up when the user presses get started button on the homepage. The Notes page has two sections: Existing notes are listed on the left side and a section to add new notes on the right side. The notes page looks like the following image:
-
-![Image of the Notes Page.](./public/assets/images/note-maker-notespage.png)
+![Image of the Notes Page.](./public/assets/images/note-maker-newnotes.png)
 
 Once the user enters the Note title and note text, Save Note button and clear form button appears on the right hand side of the page as shown in the image below. The notes get saved once the user hits save button and appears along with the rest of the notes in the right section
 
