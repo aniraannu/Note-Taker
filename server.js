@@ -10,6 +10,10 @@ const app = express();
 app.use(express.static('public'));
 // listen() method is responsible for listening for incoming connections on the specified port 
 
+// Middleware for parsing application/json and urlencoded data
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
 //HTML Routes
 app.get('/', (req, res) =>
 	res.sendFile(path.join(__dirname, '/public/index.html'))
