@@ -61,4 +61,3 @@ None
 Inspiration, code snippets, etc.
 
 * [dbader](https://github.com/dbader/readme-template)
-* [starter-code](https://github.com/coding-boot-camp/miniature-eureka)
